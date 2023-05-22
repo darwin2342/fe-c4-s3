@@ -1,0 +1,42 @@
+.add-note {
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #c8c8e3;
+    border-radius: 5px;
+  }
+  
+  .add-note h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .add-note form {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-note .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-note .form-group {
+    flex-basis: 45%;
+  }
+  
+  .add-note input[type="number"],
+  .add-note input[type="text"],
+  .add-note textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .add-note button[type="submit"] {
+    width: 71px;
+  }
+  
